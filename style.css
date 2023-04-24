@@ -81,6 +81,7 @@ li {
 #spaceship_grid {
   display: flex;
   gap: 31px;
+  padding: 0 10px 0 10px;
 }
 
 #title_section {
@@ -102,7 +103,7 @@ li {
 #contact_section {
   max-width: 1200px;
   margin-inline: auto;
-  padding: 20px 0 20px 0;
+  padding: 20px;
 }
 
 #email {
@@ -110,7 +111,7 @@ li {
 }
 /*********** IMAGES ***********/
 #home_logo {
-  padding: 130px 200px 130px 200px;
+  padding: 100px;
 }
 
 /*********** FOOTER ***********/
@@ -118,4 +119,18 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: #181818;
+}
+
+/*********** RESPONSIVT ***********/
+
+@media (max-width: 600px) {
+  #home_logo {
+    padding: 50px 100px 50px 100px;
+  }
+  #title_section {
+    margin-bottom: 20px;
+  }
+  header {
+    display: none;
+  }
 }
