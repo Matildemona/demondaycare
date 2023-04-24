@@ -133,4 +133,10 @@ footer {
   header {
     display: none;
   }
+  #spaceship_grid {
+    display: flex;
+    max-width: 430px;
+    margin-inline: auto;
+    gap: 20px;
+  }
 }
