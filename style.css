@@ -129,6 +129,7 @@ footer {
   }
   #title_section {
     margin-bottom: 20px;
+    max-width: 600px;
   }
   header {
     display: none;
